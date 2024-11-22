@@ -56,7 +56,7 @@ export default function Home() {
         </div>
 
         {/* HERO SECTION AKA WHITE CARD SECTION */}
-        <div className="relative flex flex-col mt-11 md:mt-0 px-5 py-12 md:py-8 md:mb-0 md:w-[300px] md:h-[419px] md:rounded-3xl md:shadow-lg bg-white">
+        <div className="relative flex flex-col mt-11 md:mt-0 px-5 py-12 md:py-8 md:mb-0 md:w-[300px] md:h-[419px] rounded-t-3xl md:rounded-3xl md:shadow-lg bg-white">
           <h1 className="relative flex flex-col px-1 md:px-2 md:py-2 md:justify-start text-black font-extrabold text-lg">
             Summary
           </h1>
