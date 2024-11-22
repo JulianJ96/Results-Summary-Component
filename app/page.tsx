@@ -34,7 +34,7 @@ const categories = [
 export default function Home() {
   return (
     <div className="min-h-screen flex justify-center md:pr-[15rem] items-center md:bg-white">
-      <div className="relative flex flex-col md:flex-row w-full mb-[26rem] md:mb-0 md:w-[279px] h-[353px] md:h-[419px] rounded-b-3xl md:rounded-3xl bg-gradient-blue">
+      <div className="relative flex flex-col md:flex-row w-full mb-[26rem] md:mb-0 px-0 md:py-0 md:w-[279px] h-[353px] md:h-[419px] bg-gradient-blue rounded-b-3xl md:rounded-3xl shadow-lg z-10">
         {/* HEADER SECTION AKA BLUE CARD SECTION */}
         <div className="relative flex flex-col w-full justify-center items-center mt-[23px] md:mt-[34px] md:pb-[2.5rem]">
           <h1 className="font-bold text-lg text-light-lavender">Your Result</h1>
@@ -56,7 +56,7 @@ export default function Home() {
         </div>
 
         {/* HERO SECTION AKA WHITE CARD SECTION */}
-        <div className="relative flex flex-col px-8 py-12 md:py-8 md:mb-0 md:w-[300px] md:h-[419px] md:rounded-3xl md:shadow-lg bg-white z-10">
+        <div className="relative flex flex-col mt-11 md:mt-0 px-5 py-12 md:py-8 md:mb-0 md:w-[300px] md:h-[419px] md:rounded-3xl md:shadow-lg bg-white">
           <h1 className="relative flex flex-col px-1 md:px-2 md:py-2 md:justify-start text-black font-extrabold text-lg">
             Summary
           </h1>
